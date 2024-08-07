@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center;">
+    <form action="userdetails" style="background-color:cornsilk;width: 40%; align-content: center;" method="get">
+        <fieldset>
+            <legend>Details</legend>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td>
+                        <input type="text" placeholder="Enter First Name" name="userfirstname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>
+                        <input type="text" placeholder="Enter Last Name" name="userlastname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile No</td>
+                    <td>
+                        <input type="number" placeholder="Enter Mobile No." name="usermobilenumber">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="usergender" value="Male">Male <br>
+                        <input type="radio" name="usergender" value="Female">Female <br>
+                        <input type="radio" name="usergender" value="Others">Others <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit" style="background-color: blue; border: none; color: white; border-radius: 2px;">
+                    </td>
+                    <td style="display: flex; justify-content: end;">
+                        <input type="reset" style="background-color:olive; border: none; color: white; border-radius: 2px;">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
